@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SylvainNiyonkuru Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        
+        <!-- Update these with your own fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+        
+        <link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo_niyonkuru.jpg" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Sylvain Niyonkuru</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">Full stack web developer</p>
+            <img src="img/sylvain_1.jpg" alt="a picture of Jane Smith smiling" class="intro__img">
+        </section>
+        
+        
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Software development</h3>
+                    <p>I am passionate about solving problems in tech by continuously learning and aquiring new knowledge from <strong>html, css, javascript, Node.js, Express, MongoDB, React, Redux, ... </strong></p>
+                    <p>I have did projects on those technologies which solidifies them further. </p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Buy and sell</h3>
+                    <p>Currently I am working on an <strong>E-commerce</strong> website which will make different products available to customers online anywhere anytime.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Blog Website</h3>
+                    <p>A site from which the author can login to its dashboard and be able to manage the blogs by creating new blog, reading all blogs, updating the blog and deleting the blog</p>
+                </div> <!-- / service -->
+            </div> <!-- / services -->
+            
+            <a href="#work" class="btn">My Work</a>
+        </section>
+        
+        
+        <!-- About me -->
+        <section class="about-me" id="about">
+           <h2 class="section__title section__title--about">Who I am</h2>
+           <p class="section__subtitle section__subtitle--about">Full stack web developer based out of KIGALI</p>
+           
+           <div class="about-me__body">
+               <p>I am Sylvain Niyonkuru, passionate about writting pieces of code which solve problem in our life.</p>
+               <p>Even if I did Mechanical Engineering in my bachelor degree I found that software development is my passion.</p>
+               <p>In order to boost into the career, I prepare myself to join local web development bootcamp provided by Andela here in Rwanda in the program called Andela Technical LeadershipProgram.
+                   In that bootcamp, I learnt different technologies and better grasp how working on the projects in tech taste,  i really loved them.
+               </p>
+               <p>
+                   The Andela Technical Leadership Program (ATLP) is a 9-month program that covers the technical and soft skills needed to thrive as a software engineer.
+               </p>
+           </div>
+           
+           <img src="img/sylvain_1.jpg" alt="Sylvain" class="about-me__img">
+        </section>
+        
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">Projects done</p>
+            
+            <div class="portfolio">
+                <!-- Blog website -->
+                <a href="blog_app_project.html" class="portfolio__item">
+                    <img src="img/blog_dashboard.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!-- phantom project  -->
+                <a href="phantom_app_project.html" class="portfolio__item">
+                    <img src="img/phantom_landing.png" alt="" class="portfolio__img">
+                </a>
+
+                 <!-- todo-app-in react  -->
+                <a href="todo_app.html" class="portfolio__item">
+                    <img src="img/to_do_app.png" alt="" class="portfolio__img">
+                </a>
+                
+                <!--  E-commerce website -->
+                <a href="e_commerce_app.html" class="portfolio__item">
+                    <img src="img/e_commerce_all_product.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+        </section>
+        
+        
+        <!-- Footer -->
+        <footer class="footer">
+            <a href="mailto:sylvainniyonkuru2@gmail.com" class="footer__link">sylvainniyonkuru2@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="http://dribbble.com">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/sylvain-niyonkuru-6467911b2/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/Niyonkuru1">
+                        <i class="fab fa-github"></i>
+
+                    </a>
+                </li>
+            </ul>
+        </footer>
+        
+        
+        <script src="js/index.js"></script>
+        
+    </body>
+</html>
